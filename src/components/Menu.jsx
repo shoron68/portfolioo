@@ -13,8 +13,8 @@ const Menu = () => {
     <>
     <div className="bg-[#292F36] py-[30px] border-b-2 border-[#ffffff63]">
     <Container>
-        <div className="flex justify-between lg:mx-0 mx-[15px]  ">
-            <div className="lg:w-full w-[70%]">
+        <div className="flex  lg:mx-0 mx-[15px]  ">
+            <div className="lg:w-1/2 w-[70%]">
             <div className="flex items-center">
                 <div className="">
                     <h4 className='text-[20px] text-[#12F7D6] font-ibm font-medium'><span> &lt;C/&gt;</span></h4>
@@ -26,9 +26,9 @@ const Menu = () => {
             </div>
 
 
-            <div className="lg:w-[50%] w-[20%]">
-                        <div className="flex">
-                            <ul className={`lg:flex items-center  justify-center lg:static absolute${show ? 'top-0 right-0 bg-[#292F36] z-50 w-[250px] rounded-tl-[10px]  h-full pl-[30px] pt-[50px] duration-500' : 'bg-red-600 duration-500 top-0 right-[-250px] w-[250px] h-full bg-none lg:pl-0 pl-[30px] lg:pt-0 pt-[50px] absolute hidden'}`}>
+            <div className="lg:w-1/2 w-[20%]">
+                        <div className="flex justify-end">
+                            <ul className={`lg:flex lg:items-start items-center  justify-center lg:static absolute${show ? 'top-0 right-0 bg-[#292F36] z-50 w-[250px] rounded-tl-[10px]  h-full pl-[30px] pt-[50px] duration-500' : 'bg-red-600 duration-500 top-0 right-[-250px] w-[250px] h-full bg-none lg:pl-0 pl-[30px] lg:pt-0 pt-[50px] absolute hidden'}`}>
                                 <li className='text-[16px] text-[#fff] font-ibm font-normal hover:text-[#12F7D6] duration-300 cursor-pointer scroll-smooth ' > <a href="#home">Home</a></li>
                                 <li className='lg:mx-[20px] lg:py-0 py-[10px] text-[16px] text-[#fff] font-ibm font-normal hover:text-[#12F7D6] duration-300 scroll-smooth'><a href="#aboutme">About</a></li>
                                 <li className=' text-[16px] text-[#fff] font-ibm font-normal hover:text-[#12F7D6] duration-300 scroll-smooth'><a href="#skills">Skills</a></li>
