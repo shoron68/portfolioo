@@ -6,7 +6,7 @@ import { FaGithub,FaFacebook  } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-[#] py-[30px]">
+    <div className="bg-[#292F36] py-[30px]">
 
 
     <Container>

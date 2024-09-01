@@ -12,7 +12,7 @@ import { FaCss3Alt,FaNodeJs,FaReact  } from "react-icons/fa";
 const Skills = () => {
     return (
         <div style={{ backgroundImage: `url(${bgimg})` }} className=" bg-cover bg-no-repeat bg-center ">
-            <Container>
+            <Container className="lg:mx-0 mx-[15px]">
                 <div id='skills' className="lg:py-[128px] py-[50px]">
                     <div className="">
                         <h2 className='lg:text-[64px] text-[40px] text-[#12F7D6] font-Ubuntu font-normal border-b-2 lg:w-[145px] w-[90px] mx-auto border-[#12F7D6] '>Skills</h2>
@@ -31,7 +31,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-between flex-wrap mx-auto pt-[50px]  w-[50%]">
+                    <div className="flex justify-between flex-wrap mx-auto pt-[50px]  lg:w-[50%] w-full ">
                         <div className="">
                         <div className="flex justify-center items-center h-[100px] w-[100px] bg-[#E54F26] rounded-full hover:shadow-[0_3px_10px_rgb(229,79,38)] duration-300 ">
                             <RiHtml5Line className="text-[35px] text-[#fff]" />
